@@ -2,8 +2,10 @@ const axios = require('axios');
 
 /**
  * These tests focus on the following requirement:
- * If the authenticated user is authenticated through basic authentication or OAuth with the user scope, then the response lists public and private profile information.
- * If the authenticated user is authenticated through OAuth without the user scope, then the response lists only public profile information.
+ * If the authenticated user is authenticated through basic authentication or OAuth with the user scope, 
+ * then the response lists public and private profile information.
+ * If the authenticated user is authenticated through OAuth without the user scope, 
+ * then the response lists only public profile information.
  */
 
 describe("GET /user", () => {
