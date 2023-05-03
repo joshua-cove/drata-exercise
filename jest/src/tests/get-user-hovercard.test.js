@@ -1,8 +1,6 @@
 const axios = require('axios');
 
 /**
- * repo: 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
- * user: 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
  * These tests focus on the following requirements:
  * Provides hovercard information when authenticated through basic auth or OAuth with the repo scope.
  * The subject_type and subject_id parameters provide context for the person's hovercard,
